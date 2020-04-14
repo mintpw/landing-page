@@ -45,7 +45,7 @@
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Located in the Potao Park Hotel, Japandeska captures the warmth and comfort of a Japanese trattoria, with a menu that reflects the rich cultures of both Japanese and California.<br>
 
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Executive Chef Tsuna Yoshi draws inspiration from the Japanese cooking tradition to create soulful food that celebrates the restaurant’s ongoing relationship with its local family of farmers and suppliers.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Executive Chef Tsuna Yoshi draws inspiration from the Japanese cooking tradition to create soulful food that celebrates the restaurant’s ongoing relationship with its local family of farmers and suppliers.<div>
                   
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Japandeska is open continuously throughout the day, offering breakfast, lunch, weekend brunch and dinner, as well as late-night, weekday happy hour and coffee.
                   </p>
@@ -54,12 +54,12 @@
             </div>                         
           </section> 
 
-          <section id="menu">
-            <div class="menu-header">
-              <h2>Featured menu</h2>
-            </div>           
-            
+          <section id="menu">            
             <div class="card-section">
+              <div class="featured-menu">
+                <h2>FEATURED MENU</h2>
+              </div>
+              <div class="card-container">
               <div class="card">                   
                 <img class="menu-img" src="image/cooked-ramen1.jpg">                     
                   <div class="card-menu">
@@ -83,15 +83,17 @@
                     <p>- Shrimp, Crab Stick, Rice
                     </p>
                   </div>                 
-              </div>                  
+              </div>
+              </div>
             </div>             
           </section>
           <section id="contact">
             <div class="contact-section">
               <div class="google-map">
+                <h2 style="text-align: center;">Where we are?</h2>                
                 <div class="google-map" id="map"></div>
-                <p><b>Location</b> : 221b Baker St, Marylebone, Kyoto NW1 6XE, Japan</p>
-                <p><b>Phone</b>: 060 222 5555</p>
+                <div class="location-text"><span><b>Location</b> : 221b Baker St, Marylebone, Kyoto NW1 6XE, Japan</span>
+                <span><b>Phone</b>: 060 222 5555</span></div>
               </div>
               <div class="form-contact">
                 <form action="/action_page.php">
@@ -115,9 +117,9 @@
 
 <script>
   function initMap() {
-    var location = {lat: 13.8587135, lng: 13.8587135}
+    var location = {lat: 13.8587135, lng: 100.490913}
     var map = new google.maps.Map(document.getElementById("map"),{
-      zoom: 4,
+      zoom: 15,
       center: location
     });
     var marker   = new google.maps.Marker({
