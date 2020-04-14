@@ -5,7 +5,8 @@
 ## Introduction
 This is restaurant static page that using HTML, CSS, JavaScript and Google Map API.
 
-## Set Up
+Set Up:
 
 - All the `code`  and images required to get started.
 
+-- Enjoy! --
