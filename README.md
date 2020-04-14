@@ -1,6 +1,6 @@
 # Restaurant Landing Page
 
-![](http://g.recordit.co/9IOktbqnhk.gif)
+![](http://g.recordit.co/inIptFRkIF.gif)
 
 ## Introduction
 This is restaurant static page that using HTML, CSS, JavaScript and Google Map API.
